@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 node_modules
+=======
+node_modules
+.env
+>>>>>>> 32facfa4e539c419207322e34b373e3ed8c14177

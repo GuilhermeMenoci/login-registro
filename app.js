@@ -1,10 +1,15 @@
 // imports
+<<<<<<< HEAD
 require( 'dotenv').config()
+=======
+require('dotenv').config()
+>>>>>>> 32facfa4e539c419207322e34b373e3ed8c14177
 const express = require('express')
 const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
+<<<<<<< HEAD
 // initializing the server
 const app = express()
 // Configure Json Response
@@ -168,3 +173,13 @@ mongoose
 .catch((err)=>{   
   console.log(err);
 })
+=======
+const app = express()
+
+// app.get('/', (req, res) => {
+//     res.status(200).json({ msg: 'Teste route' })
+// })
+
+//Disponibilizando na porta 3000
+app.listen(3000)
+>>>>>>> 32facfa4e539c419207322e34b373e3ed8c14177
